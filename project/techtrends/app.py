@@ -46,7 +46,7 @@ def post(post_id):
       return render_template('404.html'), 404
     else:
       title = post['title']
-      app.logger.info(f'Article "{title}" got retrieved')
+      app.logger.info("Article '{}' got retrieved".format(title))
       return render_template('post.html', post=post)
 
 # Define the About Us page
@@ -70,7 +70,7 @@ def create():
             connection.commit()
             connection.close()
 
-            app.logger.info(f'Article "{title}" got created!')
+            app.logger.info("Article '{}' got created!".format(title))
 
             return redirect(url_for('index'))
 
