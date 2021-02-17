@@ -5,38 +5,24 @@
   docker run -d -p 7111:3111 techtrends
 
 ## Docker commands used to get the application logs
-  docker logs 52380caf897c 
+  docker logs 947896b098e9 
 
 ## Logs from the container running the TechTrends application
 
-INFO: werkzeug - - [2021-02-11 04:23:09,522] -  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
-INFO: werkzeug - - [2021-02-11 04:23:12,322] - 172.17.0.1 - - [11/Feb/2021 04:23:12] "GET /about HTTP/1.1" 200 -
-INFO: werkzeug - - [2021-02-11 04:23:14,885] - 172.17.0.1 - - [11/Feb/2021 04:23:14] "GET /about HTTP/1.1" 200 -
-INFO: werkzeug - - [2021-02-11 04:23:17,532] - 172.17.0.1 - - [11/Feb/2021 04:23:17] "GET / HTTP/1.1" 200 -
-INFO: werkzeug - - [2021-02-11 04:29:31,323] - 172.17.0.1 - - [11/Feb/2021 04:29:31] "GET /create HTTP/1.1" 200 -
-INFO: werkzeug - - [2021-02-11 04:29:31,587] - 172.17.0.1 - - [11/Feb/2021 04:29:31] "GET /favicon.ico HTTP/1.1" 404 -
-INFO: app - - [2021-02-11 04:30:13,466] - Article 'Cloud-Native Nanodegree' got created!
-INFO: werkzeug - - [2021-02-11 04:30:13,469] - 172.17.0.1 - - [11/Feb/2021 04:30:13] "POST /create HTTP/1.1" 302 -
-INFO: werkzeug - - [2021-02-11 04:30:13,499] - 172.17.0.1 - - [11/Feb/2021 04:30:13] "GET / HTTP/1.1" 200 -
-INFO: app - - [2021-02-11 04:30:18,407] - Article 'Cloud-Native Nanodegree' got retrieved
-INFO: werkzeug - - [2021-02-11 04:30:18,412] - 172.17.0.1 - - [11/Feb/2021 04:30:18] "GET /7 HTTP/1.1" 200 -
-INFO: werkzeug - - [2021-02-11 04:30:18,522] - 172.17.0.1 - - [11/Feb/2021 04:30:18] "GET /favicon.ico HTTP/1.1" 404 -
-INFO: werkzeug - - [2021-02-11 04:30:30,642] - 172.17.0.1 - - [11/Feb/2021 04:30:30] "GET / HTTP/1.1" 200 -
-INFO: app - - [2021-02-11 04:30:34,058] - Article '2020 CNCF Annual Report' got retrieved
-INFO: werkzeug - - [2021-02-11 04:30:34,062] - 172.17.0.1 - - [11/Feb/2021 04:30:34] "GET /1 HTTP/1.1" 200 -
-INFO: werkzeug - - [2021-02-11 04:30:34,182] - 172.17.0.1 - - [11/Feb/2021 04:30:34] "GET /favicon.ico HTTP/1.1" 404 -
-INFO: werkzeug - - [2021-02-11 04:30:39,191] - 172.17.0.1 - - [11/Feb/2021 04:30:39] "GET / HTTP/1.1" 200 -
-INFO: app - - [2021-02-11 04:30:39,724] - Article 'CNCF Cloud Native Definition v1.0' got retrieved
-INFO: werkzeug - - [2021-02-11 04:30:39,725] - 172.17.0.1 - - [11/Feb/2021 04:30:39] "GET /5 HTTP/1.1" 200 -
-INFO: werkzeug - - [2021-02-11 04:30:39,825] - 172.17.0.1 - - [11/Feb/2021 04:30:39] "GET /favicon.ico HTTP/1.1" 404 -
-INFO: werkzeug - - [2021-02-11 04:30:44,002] - 172.17.0.1 - - [11/Feb/2021 04:30:44] "GET /51 HTTP/1.1" 404 -
-INFO: werkzeug - - [2021-02-11 04:30:44,100] - 172.17.0.1 - - [11/Feb/2021 04:30:44] "GET /favicon.ico HTTP/1.1" 404 -
-INFO: app - - [2021-02-11 04:30:47,548] - Article 'CNCF Cloud Native Definition v1.0' got retrieved
-INFO: werkzeug - - [2021-02-11 04:30:47,549] - 172.17.0.1 - - [11/Feb/2021 04:30:47] "GET /5 HTTP/1.1" 200 -
-INFO: werkzeug - - [2021-02-11 04:30:47,784] - 172.17.0.1 - - [11/Feb/2021 04:30:47] "GET / HTTP/1.1" 200 -
-INFO: werkzeug - - [2021-02-11 04:30:50,514] - 172.17.0.1 - - [11/Feb/2021 04:30:50] "GET /healthz HTTP/1.1" 200 -
-INFO: werkzeug - - [2021-02-11 04:30:50,613] - 172.17.0.1 - - [11/Feb/2021 04:30:50] "GET /favicon.ico HTTP/1.1" 404 -
-INFO: werkzeug - - [2021-02-11 04:30:55,212] - 172.17.0.1 - - [11/Feb/2021 04:30:55] "GET /healthz HTTP/1.1" 200 -
-INFO: werkzeug - - [2021-02-11 04:30:56,679] - 172.17.0.1 - - [11/Feb/2021 04:30:56] "GET / HTTP/1.1" 200 -
-INFO: werkzeug - - [2021-02-11 04:30:59,901] - 172.17.0.1 - - [11/Feb/2021 04:30:59] "GET /metrics HTTP/1.1" 200 -
-INFO: werkzeug - - [2021-02-11 04:31:00,013] - 172.17.0.1 - - [11/Feb/2021 04:31:00] "GET /favicon.ico HTTP/1.1" 404 -
+INFO: werkzeug - - [2021-02-17 07:42:38,023] -  * Running on http://0.0.0.0:3111/ (Press CTRL+C to quit)
+INFO: werkzeug - - [2021-02-17 07:42:43,202] - 172.17.0.1 - - [17/Feb/2021 07:42:43] "GET / HTTP/1.1" 200 -
+INFO: app - - [2021-02-17 07:43:08,640] - Article '2020 CNCF Annual Report' got retrieved
+INFO: werkzeug - - [2021-02-17 07:43:08,646] - 172.17.0.1 - - [17/Feb/2021 07:43:08] "GET /1 HTTP/1.1" 200 -
+INFO: app - - [2021-02-17 07:43:11,837] - Page "About Us" got accessed!
+INFO: werkzeug - - [2021-02-17 07:43:11,839] - 172.17.0.1 - - [17/Feb/2021 07:43:11] "GET /about HTTP/1.1" 200 -
+INFO: werkzeug - - [2021-02-17 07:43:13,902] - 172.17.0.1 - - [17/Feb/2021 07:43:13] "GET /create HTTP/1.1" 200 -
+INFO: app - - [2021-02-17 07:43:44,345] - Article 'Udacity  Docker ' got created!
+INFO: werkzeug - - [2021-02-17 07:43:44,346] - 172.17.0.1 - - [17/Feb/2021 07:43:44] "POST /create HTTP/1.1" 302 -
+INFO: werkzeug - - [2021-02-17 07:43:44,365] - 172.17.0.1 - - [17/Feb/2021 07:43:44] "GET / HTTP/1.1" 200 -
+INFO: app - - [2021-02-17 07:43:51,429] - Article 'Udacity  Docker ' got retrieved
+INFO: werkzeug - - [2021-02-17 07:43:51,429] - 172.17.0.1 - - [17/Feb/2021 07:43:51] "GET /7 HTTP/1.1" 200 -
+INFO: werkzeug - - [2021-02-17 07:43:51,510] - 172.17.0.1 - - [17/Feb/2021 07:43:51] "GET /favicon.ico HTTP/1.1" 404 -
+INFO: werkzeug - - [2021-02-17 07:44:42,389] - 172.17.0.1 - - [17/Feb/2021 07:44:42] "GET / HTTP/1.1" 200 -
+INFO: app - - [2021-02-17 07:44:45,589] - Article with ID: '0' could not be found!
+INFO: werkzeug - - [2021-02-17 07:44:45,591] - 172.17.0.1 - - [17/Feb/2021 07:44:45] "GET /0 HTTP/1.1" 404 -
+INFO: werkzeug - - [2021-02-17 07:44:45,674] - 172.17.0.1 - - [17/Feb/2021 07:44:45] "GET /favicon.ico HTTP/1.1" 404 -
