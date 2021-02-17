@@ -43,6 +43,7 @@ def index():
 def post(post_id):
     post = get_post(post_id)
     if post is None:
+      app.logger.info("Article with ID: '{}' could not be found!".format(post_id))
       return render_template('404.html'), 404
     else:
       title = post['title']
@@ -52,6 +53,7 @@ def post(post_id):
 # Define the About Us page
 @app.route('/about')
 def about():
+    app.logger.info('Page "About Us" got accessed!')
     return render_template('about.html')
 
 # Define the post creation functionality 
